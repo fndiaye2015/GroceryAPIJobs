@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_1,,,,2023-07-07 10:06:10,2023-07-07 10:06:26,"16,181s",FAILED
+,,,,,,,
+Test Cases/Get_a_product,,,,2023-07-07 10:06:10,2023-07-07 10:06:16,"5,572s",PASSED
+"sendRequestAndVerify(findTestObject(""GroceryAPI/Products/Get All Products""))",,,,2023-07-07 10:06:10,2023-07-07 10:06:15,"4,338s",PASSED
+"sendRequestAndVerify(findTestObject(""GroceryAPI/Products/Get a product""))",,,,2023-07-07 10:06:15,2023-07-07 10:06:16,"0,900s",PASSED
+,,,,,,,
+Test Cases/Add_cart_to_item,,,,2023-07-07 10:06:16,2023-07-07 10:06:22,"6,418s",PASSED
+"sendRequestAndVerify(findTestObject(""GroceryAPI/Products/Get All Products""))",,,,2023-07-07 10:06:16,2023-07-07 10:06:17,"1,013s",PASSED
+"sendRequestAndVerify(findTestObject(""GroceryAPI/Products/Get a product""))",,,,2023-07-07 10:06:17,2023-07-07 10:06:18,"1,068s",PASSED
+"sendRequestAndVerify(findTestObject(""GroceryAPI/Cart/Create a new cart""))",,,,2023-07-07 10:06:18,2023-07-07 10:06:19,"0,954s",PASSED
+"sendRequestAndVerify(findTestObject(""GroceryAPI/Cart/Add an item to cart""))",,,,2023-07-07 10:06:19,2023-07-07 10:06:20,"1,342s",PASSED
+"sendRequestAndVerify(findTestObject(""GroceryAPI/Cart/Get cart items""))",,,,2023-07-07 10:06:20,2023-07-07 10:06:21,"0,881s",PASSED
+"sendRequestAndVerify(findTestObject(""GroceryAPI/Cart/Get a cart""))",,,,2023-07-07 10:06:21,2023-07-07 10:06:22,"0,997s",PASSED
+,,,,,,,
+Test Cases/Create_order - Copy,,,,2023-07-07 10:06:22,2023-07-07 10:06:26,"3,838s",FAILED
+"sendRequestAndVerify(findTestObject(""GroceryAPI/Get Status""))",,,,2023-07-07 10:06:22,2023-07-07 10:06:24,"1,451s",PASSED
+"sendRequestAndVerify(findTestObject(""GroceryAPI/Orders/API Auth - Copy"", [""email"":clientEmail]))",,,,2023-07-07 10:06:24,2023-07-07 10:06:25,"1,113s",PASSED
+"sendRequestAndVerify(findTestObject(""GroceryAPI/Orders/Get all orders""))",,,,2023-07-07 10:06:25,2023-07-07 10:06:26,"1,092s",FAILED

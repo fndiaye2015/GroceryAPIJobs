@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02bb1a78-1d17-49f5-a7d2-d898eef8832c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>28867045-e90d-49b0-8d20-40a31dbd99d4</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/UserEmail</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>28867045-e90d-49b0-8d20-40a31dbd99d4</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>clientName</value>
+      <variableId>d549f242-fd74-4624-a16c-d4cbe93661c4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>28867045-e90d-49b0-8d20-40a31dbd99d4</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>clientEmail</value>
+      <variableId>1db6c41d-576d-4170-a549-c80552371829</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d549f242-fd74-4624-a16c-d4cbe93661c4</id>
+      <masked>false</masked>
+      <name>clientName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1db6c41d-576d-4170-a549-c80552371829</id>
+      <masked>false</masked>
+      <name>clientEmail</name>
+   </variable>
+</TestCaseEntity>
